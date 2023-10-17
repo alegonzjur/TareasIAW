@@ -12,3 +12,4 @@ lista = []
 for i in palabra:
     lista.append(i)
 print(lista[::-1])
+

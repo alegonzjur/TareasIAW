@@ -8,7 +8,7 @@ Created on Tue Oct 10 11:08:38 2023
 #----Ejercicio 7----
 
 contraseña = str(input("Introduzca la contraseña:"))
-palabra = 'Quitamanchas'
+palabra = '123456'
 
 while contraseña != palabra:
     print("Contraseña incorrecta.")

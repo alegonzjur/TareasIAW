@@ -10,10 +10,6 @@ n = str(input('Introduzca su nombre:'))
 e = int(input('Introduzca su edad:'))
 d = str(input('Introduzca su direccion:'))
 t = int(input('Introduzca su telefono:'))
-dicc = dict()
-dicc['nombre'] = n
-dicc['edad'] = e
-dicc['direccion'] = d
-dicc['telefono'] = t
-print(dicc.get('nombre'), 'tiene', dicc.get('edad'),'años, vive en', 
-      dicc.get('direccion'),'y su numero de telefono es', dicc.get('telefono'))
+dicc = {'nombre': n, 'edad': e, 'direccion':d, 'telefono':t}
+print(dicc['nombre'], 'tiene', dicc['edad'],'años, vive en', 
+      dicc['direccion'],'y su numero de telefono es', dicc['telefono'])

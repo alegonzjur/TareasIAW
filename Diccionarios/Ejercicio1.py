@@ -12,7 +12,7 @@ dicc['Dollar'] = '$'
 dicc['Yen'] = 'Y'
 divisa = str(input('Introduzca una divisa:'))
 if divisa in dicc:
-    print('El simbolo de',divisa,'es',dicc.get(divisa))
+    print('El simbolo de',divisa,'es',dicc[divisa])
 else:
     print('La divisa no se encuentra en el diccionario.')
 

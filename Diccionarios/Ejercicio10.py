@@ -37,4 +37,4 @@ while opcion != 6:
         for clave, valor in dicc.items():
             if valor['preferente'] == True:
                 print(clave, ':', valor['nombre'])
-opcion = input('Menú de opciones\n(1) Añadir cliente\n(2) Eliminar cliente\n(3) Mostrar cliente\n(4) Listar clientes\n(5) Listar clientes preferentes\n(6) Terminar\nElige una opción:')
+opcion = input('Elige una opción: 1-Añadir cliente 2-Eliminar cliente 3-Mostrar cliente 4-Listar clientes 5-Listar clientes preferentes 6-Terminar')

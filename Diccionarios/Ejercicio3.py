@@ -11,6 +11,6 @@ k = float(input('Introduzca un pesaje:'))
 frutas = {'Platano':1.35,'Manzana':0.80,'Pera':0.85, 'Naranja':0.70}
 
 if f in frutas.keys():
-    print(k*frutas[f])
+    print('El precio de',k,'kg de',f,'es',k*frutas[f],'€')
 else:
     print('Esa fruta no está disponible.')

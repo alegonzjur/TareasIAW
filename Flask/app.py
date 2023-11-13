@@ -8,10 +8,12 @@ Created on Tue Nov  7 10:40:17 2023
 from flask import Flask, request, render_template
 
 app = Flask(__name__)
-@app.route('/')
-
+@app.route('/', methods=['POST','GET'])
 def hola():
-    return render_template("index.html")
+    user = request.form.get("usuario")
+    password = request.form.get("contrasena")
+    print(user, " ",  password)
+    return render_template("index.html", user=user, password=password)
 
 
 @app.route("/baloncesto")
